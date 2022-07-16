@@ -24,10 +24,10 @@
   </widget>
   <widget name="modpicons" position="386,353" alphatest="blend" size="278,166" transparent="1" zPosition="2" />
   <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/BG_default2hd.jpg" position="0,0" zPosition="-19" size="1280,720" />
-  <widget source="progress" zPosition="2" render="Progress" position="840,460" size="400,40" transparent="1" borderWidth="0" backgroundColor="#0242FD" foregroundColor="#FFFFFF" />
-  <widget source="progresstext" render="Label" position="840,466" size="400,40" zPosition="2" font="Regular;20" halign="center" transparent="1" foregroundColor="#49bbff" backgroundColor="#0242FD" />
-  <widget source="progress2" zPosition="2" render="Progress" position="840,513" size="400,40" transparent="1" borderWidth="0" backgroundColor="#0242FD" foregroundColor="#FFFFFF" />
-  <widget source="progresstext2" render="Label" position="840,520" size="400,40" zPosition="2" font="Regular;20" halign="center" transparent="1" foregroundColor="#49bbff" backgroundColor="#0242FD" />
+  <widget source="progress" zPosition="2" render="Progress" position="840,460" size="400,40" transparent="1" foregroundColor="#1b3c85" />
+  <widget source="progresstext" render="Label" position="840,466" size="400,40" zPosition="3" font="Regular;20" halign="center" transparent="1" foregroundColor="#FFFFFF" backgroundColor="#ff111111" />
+  <widget source="progress2" zPosition="2" render="Progress" position="840,513" size="400,40" transparent="1" foregroundColor="#1b3c85" />
+  <widget source="progresstext2" render="Label" position="840,520" size="400,40" zPosition="3" font="Regular;20" halign="center" transparent="1" foregroundColor="#FFFFFF" backgroundColor="#ff111111" />
   <!--flash-->
   <ePixmap position="262,588" zPosition="2" size="44,59" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GioppyGio/Panel/hddhd.png" alphatest="blend" />
   <widget source="session.CurrentService" render="Label" position="314,584" size="593,26" halign="left" valign="center" font="Regular; 18" transparent="1" foregroundColor="#00ffc000" backgroundColor="#00000000" zPosition="6">
